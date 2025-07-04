@@ -94,7 +94,7 @@ DATABASES = {
         'NAME': os.getenv("DB_NAME", "notesdb"),
         'USER': os.getenv("DB_USER", "notesuser"),
         'PASSWORD': os.getenv("DB_PASSWORD", "notepass"),
-        'HOST': os.getenv("DB_HOST", "mysql-db")),
+        'HOST': os.getenv("DB_HOST", "mysql-db"),
         'PORT': os.getenv("DB_PORT", "3306"),
     }
 }
